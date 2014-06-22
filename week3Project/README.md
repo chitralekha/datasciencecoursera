@@ -1,4 +1,4 @@
-#This project of coursera has a objective of creating a tidydata set which gets the average value of each mean and standard variable for each subject and activity id.
+###This project of coursera has a objective of creating a tidydata set which gets the average value of each mean and standard variable for each subject and activity id.
 
 The dataset includes the following files:
 =========================================
