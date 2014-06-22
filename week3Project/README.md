@@ -13,19 +13,23 @@ To get the tidy data set we have to perform the below steps.
 
  -read the files from test set.
 
- -assign the column names for activity table and subject table.
+ -assign the column names for activity table and subject table for xtrain.
 
  -make the features(xtest) column names readable by getting rid of extra characters. This involved getting rid of "." and "()" and 
  selecting just std and mean variables
+ 
+ -assign the above columns to xtest.
  
  -merge all the tables of test.
 
  -read the files from train set.
 
- -assign the column names for activity table and subject table.
+ -assign the column names for activity table and subject table for ytrain.
 
  -make the features(ytest) column names readable by getting rid of extra characters.This involved getting rid of "." and "()" and 
  selecting just std and mean variables.
+ 
+  -assign the above columns to xtrain.
  
  -merge all the tables of train.
 
@@ -33,4 +37,4 @@ To get the tidy data set we have to perform the below steps.
 
  -Create the tidy data.
 
- -Have the tidayData sorted by subject id and activity id for easier viewing.
+ -Have the tidayData sorted by subject id and activity id for easier viewing if required.
