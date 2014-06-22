@@ -68,5 +68,5 @@ finalData <- rbind(finalTrain,finalTest)
 #Create the tidy data
 q1 <- aggregate(.~subject + activityId+activity, FUN=mean, data = finalData)
 
-#Have the tidayData sorted by subject id and activity id to view by subject and activity.
-tidyData <- tidyData[order(tidyData$subject, tidyData$activityId),]
+#Have the tidyData sorted by subject id and activity id to view by subject and activity  for easy viewing if required.
+#tidyData <- tidyData[order(tidyData$subject, tidyData$activityId),]
