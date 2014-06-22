@@ -1,4 +1,4 @@
-*Please open in raw format on git hub to read teh data easily.
+*Please open in raw format on git hub to read the data easily.
 
 1.Introduction
 
